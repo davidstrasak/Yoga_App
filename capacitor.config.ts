@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
 	appId: 'net.davidstrasak.yogapp',
-	appName: 'yoga-app',
+	appName: 'YGX Yoga App',
 	webDir: 'build'
 };
 
