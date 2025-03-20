@@ -1,38 +1,78 @@
-# sv
+# Yoga App
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A distraction-free mobile application for your daily yoga practice. This app provides a curated selection of yoga videos without YouTube's recommendations and distractions, allowing you to focus solely on your practice.
 
-## Creating a project
+## Purpose
 
-If you're seeing this, you've probably already done this step. Congrats!
+The Yoga App was developed to solve a common problem - when you just want to do some morning yoga, YouTube's algorithm constantly tries to seduce you with other videos. This app creates a focused environment with carefully selected yoga videos for different needs and skill levels.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Features
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Distraction-Free Environment**: Watch yoga videos without YouTube's recommended videos and distractions
+- **Curated Video Selection**: Hand-picked yoga videos for various purposes and levels
+- **Simple Navigation**: Clean, intuitive interface focused on the yoga experience
+- **Mobile-Optimized**: Designed specifically for Android devices
+- **Responsive Design**: Works well on different screen sizes
 
-## Developing
+## Video Library
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+The app currently includes the following curated videos:
+
+- Yoga for Beginners
+- 30 Min Full Body Yoga
+- Morning Yoga Routine
+- Yoga for Relaxation
+
+## Technology Stack
+
+- **Frontend**: SvelteKit
+- **Mobile Platform**: Android (Capacitor/Cordova)
+- **Styling**: Custom CSS with responsive design
+- **Media**: YouTube iframe embedding
+
+## Development
+
+This application is built using SvelteKit and packaged for Android devices. The build process compiles the web application into a native Android app.
+
+### Project Structure
+
+- `/src` - Source code for the SvelteKit application
+- `/android` - Android-specific configuration and assets
+- `/build` - Build output for the web version
+- `.svelte-kit` - SvelteKit generated files
+
+### Building and Running
+
+To run the development server:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+To build the Android app:
 
 ```bash
 npm run build
+npx cap sync android
+npx cap open android
 ```
 
-You can preview the production build with `npm run preview`.
+## Installation
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+The app can be installed on Android devices via the APK file or through the Google Play Store (if published).
+
+## Future Enhancements
+
+- Add more curated yoga videos
+- Implement video categories (beginner, intermediate, advanced)
+- Add offline mode support
+- Include favorites or bookmarking feature
+- Add timer/scheduling functionality
+
+## License
+
+This is just a fancy youtube wrapper, no license needed.
+
+## Credits
+
+Created by David Strasak
