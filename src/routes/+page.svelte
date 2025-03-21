@@ -1,6 +1,7 @@
 <script lang="ts">
 	let videoId = 'PzSVekqNiuA';
 	let featuredVideos = [
+		{ id: 'o_73FeXw3ZI', title: 'Start Your Day With This' },
 		{ id: 'PzSVekqNiuA', title: 'Yoga for Beginners' },
 		{ id: 'NG6mw9-H_0I', title: 'Morning Mobility' },
 		{ id: 'hJbRpHZr_d0', title: '30 Min Full Body Yoga' },
