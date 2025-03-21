@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">yoga-app</string>
-    <string name="title_activity_main">yoga-app</string>
+    <string name="app_name">YGX Yoga App</string>
+    <string name="title_activity_main">YGX Yoga App</string>
     <string name="package_name">net.davidstrasak.yogapp</string>
     <string name="custom_url_scheme">net.davidstrasak.yogapp</string>
 </resources>

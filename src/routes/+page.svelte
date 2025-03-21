@@ -2,9 +2,10 @@
 	let videoId = 'PzSVekqNiuA';
 	let featuredVideos = [
 		{ id: 'PzSVekqNiuA', title: 'Yoga for Beginners' },
+		{ id: 'NG6mw9-H_0I', title: 'Morning Mobility' },
 		{ id: 'hJbRpHZr_d0', title: '30 Min Full Body Yoga' },
 		{ id: 'sTANio_2E0Q', title: 'Morning Yoga Routine' },
-		{ id: 'GLy2rYHwUqY', title: 'Yoga for Relaxation' }
+		{ id: 'GLy2rYHwUqY', title: '45min Yoga for Relaxation' }
 	];
 
 	function changeVideo(id: any) {
