@@ -1,12 +1,11 @@
 <script lang="ts">
-	let videoId = 'PzSVekqNiuA';
+	let videoId = 'o_73FeXw3ZI';
 	let featuredVideos = [
-		{ id: 'o_73FeXw3ZI', title: 'Start Your Day With This' },
-		{ id: 'PzSVekqNiuA', title: 'Yoga for Beginners' },
-		{ id: 'NG6mw9-H_0I', title: 'Morning Mobility' },
-		{ id: 'hJbRpHZr_d0', title: '30 Min Full Body Yoga' },
-		{ id: 'sTANio_2E0Q', title: 'Morning Yoga Routine' },
-		{ id: 'GLy2rYHwUqY', title: '45min Yoga for Relaxation' }
+		{ id: 'o_73FeXw3ZI', title: 'Start Your Day With This', length: '9.5' },
+		{ id: 'PzSVekqNiuA', title: 'Yoga for Beginners', length: '7' },
+		{ id: 'hJbRpHZr_d0', title: 'Yoga for anxiety', length: '27' },
+		{ id: 'sTANio_2E0Q', title: 'Stretch Yoga', length: '19' },
+		{ id: 'GLy2rYHwUqY', title: 'Total Deep Stretch Yoga', length: '45' }
 	];
 
 	function changeVideo(id: any) {
@@ -83,7 +82,7 @@
 	</div>
 
 	<section class="video-section">
-		<h2>Recommended Videos</h2>
+		<h2>More Videos</h2>
 		<div class="video-grid">
 			{#each featuredVideos as video}
 				<div
@@ -113,7 +112,7 @@
 							</svg>
 						</div>
 					</div>
-					<h3>{video.title}</h3>
+					<h3 class="">{video.length}min - {video.title}</h3>
 				</div>
 			{/each}
 		</div>
